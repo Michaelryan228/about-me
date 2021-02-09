@@ -127,3 +127,5 @@ switch (lowerFavoriteColor) {
         //console.log ('Incorrect. Green is my favorite color.');
         alert ('Incorrect. Green is my favorite color.');
 }
+
+alert ('Thanks for playing my game, ' + userName + '!');
