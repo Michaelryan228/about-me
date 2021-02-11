@@ -131,7 +131,7 @@ switch (lowerFavoriteColor) {
 let secretNumber = parseInt( prompt('Lastly, can you guess the secret number?'))
 let count = 3;
 let correctAnswer = 1;
-console.log (correctAnswer);
+//console.log (correctAnswer);
 
 for (let i = 0; i < count; i += 1){
    if (secretNumber === correctAnswer){
