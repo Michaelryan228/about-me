@@ -128,4 +128,26 @@ switch (lowerFavoriteColor) {
         alert ('Incorrect. Green is my favorite color.');
 }
 
+let secretNumber = parseInt( prompt('Lastly, can you guess the secret number?'))
+let count = 3;
+let correctAnswer = 1;
+console.log (correctAnswer);
+
+for (let i = 0; i < count; i += 1){
+   if (secretNumber === correctAnswer){
+      alert('You are correct!');
+      break;
+   } else if (secretNumber < correctAnswer){
+      alert('That is too low.');
+   } else if (secretNumber > correctAnswer){
+      alert('That is too high.');
+   }
+   if (i < count - 1){
+      secretNumber = parseInt( prompt('Lastly, can you guess the secret number?'))
+   }
+}
+alert ('Well done! The correct answer is 1')
+
+
+
 alert ('Thanks for playing my game, ' + userName + '!');

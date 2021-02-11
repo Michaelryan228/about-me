@@ -6,3 +6,23 @@ p {
     margin-left: 100px;
     margin-right: 100px;
 }
+
+ul, ol {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style:circle;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
