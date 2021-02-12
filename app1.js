@@ -1,8 +1,8 @@
 'use strict';
 
 function askName() {
-let userName=prompt('What is your name?');
-alert ('Welcome to the Michael Ryan information kiosk, ' + userName + '!');
+    let userName = prompt('What is your name?');
+    alert ('Welcome to the Michael Ryan information kiosk, ' + userName + '!');
 }
 
 askName();
@@ -10,10 +10,9 @@ askName();
 let finalScore = 0
 
 function favoriteGame() {
-
-   let title = prompt('Is The Legend of Zelda my favorite game?');
+    let title = prompt('Is The Legend of Zelda my favorite game?');
     
-    if (title === 'yes' || title === 'y' || title === 'true' || title === 't' ) {
+    if (title === 'yes' || title === 'Yes' || title === 'y' || title === 'Y' || title === 'true' || title === 'True' || title === 't' || title === 'T') {
         alert ('Correct!');
         finalScore += 1
     } else {
@@ -23,190 +22,102 @@ function favoriteGame() {
 
 favoriteGame();
 
-// let favoriteGame = prompt('Is The Legend of Zelda my favorite game?');
-// let lowerFavoriteGame = favoriteGame.toLowerCase();
+function favoritePlanet() {
+    let title = prompt('Is Earth my favorite planet?');
+    
+    if (title === 'no' || title === 'No' || title === 'n' || title === 'N' || title === 'false' || title === 'False' || title === 'f' || title === 'F') {
+        alert ('Correct!');
+        finalScore += 1
+    } else {
+        alert ('Incorrect. Pluto is my favorite planet.');
+    } 
+}
 
-// switch (lowerFavoriteGame) {
-//     case 'yes':
-//         //console.log ('That is correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//     case 'y':
-//          //console.log ('That is correct!');
-//          alert ('Correct!');
-//          finalScore = finalScore + 1
-//         break;
-//      case 'true':
-//          //console.log ('That is correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      case 't':
-//         //console.log ('That is correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      default:
-//         //console.log ('Incorrect.  Zelda is my favorite game.');
-//         alert ('Incorrect. Zelda is my favorite game.');
-// }
+favoritePlanet();
 
-// let favoritePlanet = prompt('Is Earth my favorite planet?');
-// let lowerFavoritePlanet = favoritePlanet.toLowerCase();
+function favoriteMonth() {
+    let title = prompt('Is October my favorite month?');
+    
+    if (title === 'yes' || title === 'Yes' || title === 'y' || title === 'Y' || title === 'true' || title === 'True' || title === 't' || title === 'T') {
+        alert ('Correct!');
+        finalScore += 1
+    } else {
+        alert ('Incorrect. October is my favorite month.');
+    } 
+}
 
-// switch (lowerFavoritePlanet) {
-//     case 'no':
-//         //console.log ('Correct!  Pluto is my favorite planet.');
-//         alert ('Correct!  Pluto is my favorite planet.');
-//         finalScore = finalScore + 1
-//         break;
-//     case 'n':
-//          //console.log ('Correct!  Pluto is my favorite planet. ');
-//          alert ('Correct!  Pluto is my favorite planet.');
-//          finalScore = finalScore + 1
-//         break;
-//      case 'false':
-//          //console.log ('Correct!  Pluto is my favorite planet.');
-//         alert ('Correct!  Pluto is my favorite planet.');
-//         finalScore = finalScore + 1
-//         break;
-//      case 'f':
-//         //console.log ('Correct!  Pluto is my favorite planet.');
-//         alert ('Correct!  Pluto is my favorite planet.');
-//         finalScore = finalScore + 1
-//         break;
-//      default:
-//         //console.log ('Incorrect.');
-//         alert ('Incorrect.');
-// }
+favoriteMonth();
 
-// let favoriteMonth = prompt('Is October my favorite month?');
-// let lowerFavoriteMonth = favoriteMonth.toLowerCase();
+function favoriteCar() {
+    let title = prompt('Is the Mclaren P1 my favorite car?');
+    
+    if (title === 'yes' || title === 'Yes' || title === 'y' || title === 'Y' || title === 'true' || title === 'True' || title === 't' || title === 'T') {
+        alert ('Correct!');
+        finalScore += 1
+    } else {
+        alert ('Incorrect. The Mclaren P1 is my favorite car.');
+    } 
+}
 
-// switch (lowerFavoriteMonth) {
-//     case 'yes':
-//         //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//     case 'y':
-//          //console.log ('Correct!');
-//          alert ('Correct!');
-//          finalScore = finalScore + 1
-//         break;
-//      case 'true':
-//          //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      case 't':
-//         //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      default:
-//         //console.log ('Incorrect. October is my favorite month.');
-//         alert ('Incorrect. October is my favorite month.');
-// }
+favoriteCar();
 
-// let favoriteCar = prompt('Is the Mclaren P1 my favorite car?');
-// let lowerFavoriteCar = favoriteCar.toLowerCase();
+function favoriteColor() {
+    let title = prompt('Is Green my favorite color?');
+    
+    if (title === 'yes' || title === 'Yes' || title === 'y' || title === 'Y' || title === 'true' || title === 'True' || title === 't' || title === 'T') {
+        alert ('Correct!');
+        finalScore += 1
+    } else {
+        alert ('Incorrect. Green is my favorite color.');
+    } 
+}
 
-// switch (lowerFavoriteCar) {
-//     case 'yes':
-//         //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//     case 'y':
-//          //console.log ('Correct!');
-//          alert ('Correct!');
-//          finalScore = finalScore + 1
-//         break;
-//      case 'true':
-//          //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      case 't':
-//         //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      default:
-//         //console.log ('Incorrect. The Mclaren P1 is my favorite car.');
-//         alert ('Incorrect. The Mclaren P1 is my favorite car.');
-// }
+favoriteColor();
 
-// let favoriteColor = prompt('Is Green my favorite color?');
-// let lowerFavoriteColor = favoriteColor.toLowerCase();
+function specialNumber() {
+    let secretNumber = parseInt( prompt('Can you guess the secret number?'))
+    let count = 4;
+    let correctAnswer = 1;
+    
+    for (let i = 0; i < count; i += 1){
+       if (secretNumber === correctAnswer){
+          alert('You are correct!');
+          finalScore += 1
+          break;
+       } else if (secretNumber < correctAnswer){
+          alert('That is too low.');
+       } else if (secretNumber > correctAnswer){
+          alert('That is too high.');
+       }
+       if (i < count - 1){
+          secretNumber = parseInt( prompt('Can you guess the secret number?'))
+       }
+    }
+    alert ('Well done! The correct answer is 1')
+}
 
-// switch (lowerFavoriteColor) {
-//     case 'yes':
-//         //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//     case 'y':
-//          //console.log ('Correct!');
-//          alert ('Correct!');
-//          finalScore = finalScore + 1
-//         break;
-//      case 'true':
-//          //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      case 't':
-//         //console.log ('Correct!');
-//         alert ('Correct!');
-//         finalScore = finalScore + 1
-//         break;
-//      default:
-//         //console.log ('Incorrect. Green is my favorite color.');
-//         alert ('Incorrect. Green is my favorite color.');
-// }
+specialNumber();
 
-// let secretNumber = parseInt( prompt('Lastly, can you guess the secret number?'))
-// let count = 4;
-// let correctAnswer = 1;
-// //console.log (correctAnswer);
+function goodEat() {
+    let favoriteFood = ['gnocchi', 'pasta', 'pizza', 'jamacian beef patty', 'ramen']
+    let guess = 6;
 
-// for (let i = 0; i < count; i += 1){
-//    if (secretNumber === correctAnswer){
-//       alert('You are correct!');
-//       finalScore = finalScore + 1
-//       break;
-//    } else if (secretNumber < correctAnswer){
-//       alert('That is too low.');
-//    } else if (secretNumber > correctAnswer){
-//       alert('That is too high.');
-//    }
-//    if (i < count - 1){
-//       secretNumber = parseInt( prompt('Lastly, can you guess the secret number?'))
-//    }
-// }
-// alert ('Well done! The correct answer is 1')
+for (let i = 0; i < guess; i +=1) {
+   let foodGuess = prompt('Can you guess one of my favorite foods?')
+   if (foodGuess === favoriteFood[0] || foodGuess === favoriteFood[1] || foodGuess === favoriteFood[2] || foodGuess === favoriteFood[3] || foodGuess === favoriteFood[4]) {
+      alert('Correct!')
+      finalScore += 1
+      break;
+   }
+   else {
+      alert('Incorrect.')
+   }
+   alert ('Well done! I love all of these foods: ' + favoriteFood)
+}
+}
 
-// let favoriteFood = ['gnocchi', 'pasta', 'pizza', 'jamacian beef patty', 'ramen']
-// console.log('favorite foods', favoriteFood)
-// let guess = 6;
+goodEat();
 
-// for (let i = 0; i < guess; i +=1) {
-//    let foodGuess = prompt('Can you guess one of my favorite foods?')
-//    if (foodGuess === favoriteFood[0] || foodGuess === favoriteFood[1] || foodGuess === favoriteFood[2] || foodGuess === favoriteFood[3] || foodGuess === favoriteFood[4]) {
-//       console.log(foodGuess)
-//       alert('Correct!')
-//       finalScore = finalScore + 1
-//       break;
-//    }
-//    else {
-//       alert('Incorrect.')
-//    }
-// }
-// alert ('Well done! I love all of these foods: ' + favoriteFood)
+alert (finalScore + '/7 is your final score!')
 
-// alert (finalScore + '/7 is your final score!')
-
-// alert ('Thanks for playing my game, ' + userName + '!');
+alert ('Thanks for playing my game, ' + userName + '!');
